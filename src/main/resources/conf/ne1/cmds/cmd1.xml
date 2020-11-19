@@ -1,0 +1,11 @@
+<?xml version='1.0'?>
+<cmdlist>
+   <cmds>
+      <request>LST-DEVICE::OLTID=1.1.1.1:CTAG::;</request>
+	  <response><![CDATA[  nihao
+]]></response>
+  <!-- 文件名，文件放在file目录下 -->
+  <resfile>LST-DEVICE.txt</resfile>
+  <timeout>500-2000</timeout>
+  </cmds>  
+</cmdlist>

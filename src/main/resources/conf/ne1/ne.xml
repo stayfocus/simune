@@ -1,0 +1,24 @@
+<?xml version='1.0'?>
+<NeCfg>
+  <port>10090</port>
+  <maxConn>3</maxConn>
+  <maxPolicy>-1</maxPolicy>
+  <pkgSplit>;</pkgSplit>
+  <stripSplit>false</stripSplit>
+  <notMatch>the command is not find;</notMatch>
+  <timeout>10</timeout>
+  <login>
+     <request>LOGIN:::100::UN=AAA,PWD=BBB;</request>
+     <success><![CDATA[  HW_10.228.255.68 2020-04-21 13:38:41
+
+M  CTAG COMPLD
+   EN=0   ENDESC=成功。
+;
+]]></success>
+     <fail><![CDATA[HW_10.228.255.68 2020-04-21 13:38:41
+M  CTAG DENY
+   EN=20   ENDESC=失败。
+;]]></fail>
+   <timeout>100-200</timeout>
+  </login>
+</NeCfg>
