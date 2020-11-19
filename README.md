@@ -1,5 +1,7 @@
 # simune
 
+A simulate network element with configurable rules and messages. Support multi-manufacturer and multi-model equipment (such as Huawei iManager U2000), which can be configured and acted as a multi-manufacturer ems system. It supports the full features of TL1 protocol.
+
 交互规则和报文可配置的模拟网元
 
 运行时的文件目录结构：
